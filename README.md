@@ -13,10 +13,10 @@ See *timebands.pdf* below for further details.
 
 ##Use the script
 
-- virtualenv --distribute -p /usr/path/to/python energytimebands
-- cd energytimebands
-- source bin/activate
-- git clone http://github.com/brunifrancesco/energytimebands.git
-- cd energytimebands
-- pip install -r requirements.txt
-- python tests.py
+    - virtualenv --distribute -p /usr/path/to/python energytimebands
+    - cd energytimebands
+    - source bin/activate
+    - git clone http://github.com/brunifrancesco/energytimebands.git
+    - cd energytimebands
+    - pip install -r requirements.txt
+    - python tests.py
